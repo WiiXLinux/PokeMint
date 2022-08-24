@@ -6,6 +6,11 @@ import java.awt.*;
 
 public class Fight extends Type {
 
+
+    public Fight(){
+        color = Color.RED.darker();
+        getTypeEnum = TYPE.FIGHT;
+    }
     @Override
     public double multiplier(TYPE against) {
         return switch (against) {
@@ -16,8 +21,5 @@ public class Fight extends Type {
         };
     }
 
-    @Override
-    public Color color() {
-        return Color.RED.darker();
-    }
+
 }
