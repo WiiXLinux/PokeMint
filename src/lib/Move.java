@@ -1,6 +1,5 @@
 package lib;
 
-import java.lang.annotation.Documented;
 
 public class Move {
 
@@ -11,6 +10,7 @@ public class Move {
             target.status = this.status;
 
             System.out.println(user.name+"'s "+this.name+" did "+damage+" points of damage");
+            this.pp -= user.underPressure+1;
     } else {
             System.out.println(target.name+" evaded "+this.name);
         }
