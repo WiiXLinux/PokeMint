@@ -1,9 +1,7 @@
 package lib;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.nio.file.Path;
 import java.util.Scanner;
 
 public class PokeMint {
@@ -34,8 +32,8 @@ public class PokeMint {
     public void readFromXML(String path) throws FileNotFoundException {
         File data = new File(path);
         Scanner reader = new Scanner(data);
-        if (data.isDirectory() || !data.exists() || !data.canRead()){
-            System.err.println("\""+path+"\""+" isDirectory = "+data.isDirectory() + " exists = " + data.exists() + " canRead = " + data.canRead());
+        if (data.isDirectory() || !data.exists() || !data.canRead()) {
+            System.err.println("\"" + path + "\"" + " isDirectory = " + data.isDirectory() + " exists = " + data.exists() + " canRead = " + data.canRead());
             System.exit(-2);
         }
 

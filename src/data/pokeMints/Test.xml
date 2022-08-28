@@ -1,31 +1,31 @@
 <pokeMint>
-    <name> TestPokeMint </name>
-    <type> Normal </type>
+    <name>TestPokeMint</name>
+    <type>Normal</type>
 
-    <hp> 100 </hp>
-    <status> </status>
+    <hp>100</hp>
+    <status>null</status>
 
-    <attack>        10 </attack>
-    <specialAttack> 10 </specialAttack>
-    <defense>        5 </defense>
-    <specialDefense> 5 </specialDefense>
-    <maxHp>         40 </maxHp>
-    <speed>         10 </speed>
+    <attack>10</attack>
+    <specialAttack>10</specialAttack>
+    <defense>5</defense>
+    <specialDefense>5</specialDefense>
+    <maxHp>40</maxHp>
+    <speed>10</speed>
 
     <moves>
         <tackle>
-            <name> tackle </name>
-            <type> Normal </type>
-            <pp> 25 </pp>
-            <ap> 40 </ap>
-            <specialEffect> </specialEffect>
+            <name>tackle</name>
+            <type>Normal</type>
+            <pp>25</pp>
+            <ap>40</ap>
+            <specialEffect>null</specialEffect>
         </tackle>
         <restore>
-            <name> restore </name>
-            <type> Normal </type>
-            <pp> 5 </pp>
-            <ap> 0 </ap>
-            <specialEffect> RESTORATION </specialEffect>
+            <name>restore</name>
+            <type>Normal</type>
+            <pp>5</pp>
+            <ap>0</ap>
+            <specialEffect>RESTORATION</specialEffect>
         </restore>
     </moves>
 </pokeMint>

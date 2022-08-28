@@ -6,7 +6,7 @@ import java.awt.*;
 
 public class Normal extends Type {
 
-    public Normal(){
+    public Normal() {
         color = Color.GRAY;
         getTypeEnum = TYPE.NORMAL;
     }

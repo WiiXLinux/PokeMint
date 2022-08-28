@@ -5,14 +5,14 @@ import lib.Status;
 
 public class Paralysis extends Status {
 
-    public Paralysis(){
+    public Paralysis() {
         name = "Paralysis";
     }
 
     @Override
     public void effect(PokeMint pokeMint) {
-        System.out.println(pokeMint.name+" is paralysed");
-        if (Math.random() <= 0.5){
+        System.out.println(pokeMint.name + " is paralysed");
+        if (Math.random() <= 0.5) {
             pokeMint.accuracy = 0;
 
         }
