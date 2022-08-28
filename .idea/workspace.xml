@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07581f55-ca3f-49cc-9abb-89778998adc4" name="Changes" comment="Added Move, Status classes&#10;Generated example Subclasses&#10;Edited PokeMint.java to add &quot;official&quot; internal variables&#10;Etc.">
+    <list default="true" id="07581f55-ca3f-49cc-9abb-89778998adc4" name="Changes" comment="Started working on the readFromXML void, added some Statuseffects and used the Goedelnumber to Hash errors. Fixed a big big big mistake I made.">
+      <change afterPath="$PROJECT_DIR$/src/lib/StatusEffects/Confusion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/StatusEffects/Paralysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/utils/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Move.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/PokeMint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/PokeMint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Status.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +38,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\henri\IdeaProjects\PokeMint\src" />
@@ -94,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661308039561</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed (some) warnings and grave mistakes">
+      <created>1661308428312</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661308428312</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +122,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added Move, Status classes&#10;Generated example Subclasses&#10;Edited PokeMint.java to add &quot;official&quot; internal variables&#10;Etc." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Move, Status classes&#10;Generated example Subclasses&#10;Edited PokeMint.java to add &quot;official&quot; internal variables&#10;Etc." />
+    <MESSAGE value="Fixed (some) warnings and grave mistakes" />
+    <MESSAGE value="Started working on the readFromXML void, added some Statuseffects and used the Goedelnumber to Hash errors" />
+    <MESSAGE value="Started working on the readFromXML void, added some Statuseffects and used the Goedelnumber to Hash errors. Fixed a big big big mistake I made." />
+    <option name="LAST_COMMIT_MESSAGE" value="Started working on the readFromXML void, added some Statuseffects and used the Goedelnumber to Hash errors. Fixed a big big big mistake I made." />
   </component>
 </project>
